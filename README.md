@@ -4,18 +4,18 @@ An application designed to digitally preserve, explore, and share traditional an
 
 
 ## ☘️ **Project Overview**
-**Root2Remedy** seeks to merge oral tradition with modern technology. Users will have access to an archive of herbal remedies, spiritual rituals, and home – based healing approach, while also having the option to contribute their own. 
+**Root2Remedy** seeks to merge oral tradition with modern technology. Users will have access to an archive of herbal remedies, spiritual rituals, and home-based healing approach, while also having the option to contribute their own. 
 
 ## **Key Features** 🔑
 1. ### **Remedy Submission & Community Archive** 🗂️
 
-    Users can manually submit remedies passed down through generations, along with personal stories, rituals, or cultural significance behind them. Each submission will be added to the **Root2Remedy** archive. This archive will serve as a digital time capsule where communites can learn from one another and preserve this traditional knowledge. 
+    Users can manually submit remedies passed down through generations, along with personal stories, rituals, or cultural significance behind them. Each submission will be added to the **Root2Remedy** archive. This archive will serve as a digital time capsule where communities can learn from one another and preserve this traditional knowledge. 
 
 2. ### **Symptom - Based Search** 🔎
 
-   Users can input specific health symtoms or concerns (like "sore throat" or "inflammation") to discover related remedies. The results will feature both modern and traditional health methods across cultures. 
+   Users can input specific health symptoms or concerns (like "sore throat" or "inflammation") to discover related remedies. The results will feature both modern and traditional health methods across cultures. 
 
-3. ### **Interative Healing Map** 🗺️
+3. ### **Interactive Healing Map** 🗺️
 
     An interactive healing map will display the geographical roots of remedies, herbal traditions, and practices. 
 
@@ -25,7 +25,7 @@ An application designed to digitally preserve, explore, and share traditional an
 
 ## **Who Would Use It?** 🧑‍🧒‍🧒
 
-The **Root2Remedy** application will be an ideal application for **educators** and **students** who are interested in traditional / holistic healing, **herbalists** and **doulas**. **Famalies** and **individuals** interested in preserving and reclaiming their generational knowledge. 
+The **Root2Remedy** application will be an ideal application for **educators** and **students** who are interested in traditional / holistic healing, **herbalists** and **doulas**. **Families** and **individuals** interested in preserving and reclaiming their generational knowledge. 
 
 
 ## **Why is this Important?** 💡
@@ -35,7 +35,7 @@ Modern medicine, as we know it today, has deep historical roots in traditional a
 ## 🚨 **Disclaimer** 🚨
 While **Root2Remedy** seeks to honor the cultural wisdom being shared, we want to also protect everyone involved. The information shared on **Root2Remedy** reflects generational knowledge of traditional practices and personal experiences with healing. **Root2Remedy** is not **intended to substitute professional medical advice, diagnosis, and treatment**. All users should **consult with a licensed physician or general healthcare provider** before trying any new remedy, especially if you have **underlying health conditions, are pregnant, or are on medications.** 
 
-The **Root2Remedy** archive includes user-submitted content. These remedies are shared with respect and integrity for generational wisdom, but they may not be evaluated by scientific research. We ask that all users approach all contributions with curiosity, cultural sensativity, and personal responsibility. 
+The **Root2Remedy** archive includes user-submitted content. These remedies are shared with respect and integrity for generational wisdom, but they may not be evaluated by scientific research. We ask that all users approach all contributions with curiosity, cultural sensitivity, and personal responsibility. 
 
 Lastly, by using **Root2Remedy**, you agree that you are solely responsible for how you use any of the information provided. Those that choose to share their generational knowledge are not liable for any adverse reactions, injuries, or outcomes related to the use or misuse of any remedy found here.
 
