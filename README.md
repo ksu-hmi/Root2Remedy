@@ -31,3 +31,26 @@ The **Root2Remedy** application will be an ideal application for **educators** a
 ## **Why is this Important?** 💡
 Modern medicine, as we know it today, has deep historical roots in traditional and holistic healing practices. Long before large pharmaceutical companies dominated healthcare, communities relied on plants, roots, and minerals for their health. Those who cared for the sick were known as healers, midwives, herbalists, shamans, etc. These practices were rooted within the culture and community. 
 
+
+## 🚨 **Disclaimer** 🚨
+While **Root2Remedy** seeks to honor the cultural wisdom being shared, we want to also protect everyone involved. The information shared on **Root2Remedy** reflects generational knowledge of traditional practices and personal experiences with healing. **Root2Remedy** is not **intended to substitute professional medical advice, diagnosis, and treatment**. All users should **consult with a licensed physician or general healthcare provider** before trying any new remedy, especially if you have **underlying health conditions, are pregnant, or are on medications.** 
+
+The **Root2Remedy** archive includes user-submitted content. These remedies are shared with respect and integrity for generational wisdom, but they may not be evaluated by scientific research. We ask that all users approach all contributions with curiosity, cultural sensativity, and personal responsibility. 
+
+Lastly, by using **Root2Remedy**, you agree that you are solely responsible for how you use any of the information provided. Those that choose to share their generational knowledge are not liable for any adverse reactions, injuries, or outcomes related to the use or misuse of any remedy found here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
