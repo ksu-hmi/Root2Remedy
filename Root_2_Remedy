@@ -1,0 +1,11 @@
+from-root-2-remedy/
+│
+├── app.py               # Main Python app
+├── templates/            # Folder for HTML templates (Flask uses this)
+│    └── home.html        # Homepage template
+│    └── remedies.html    # Remedies list/search page
+├── static/               # For CSS (optional for design)
+│    └── styles.css
+├── README.md             # Project description
+├── LICENSE               # Project license (MIT suggested)
+├── requirements.txt      # List of Python libraries needed (like Flask)

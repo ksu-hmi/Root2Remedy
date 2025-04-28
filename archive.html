@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remedy Archive - From Root 2 Remedy</title>
+</head>
+<body>
+    <h1>Remedy Archive</h1>
+
+    {% if remedies %}
+        <ul>
+            {% for remedy in remedies %}
+                <li><strong>{{ remedy['name'] }}:</strong> {{ remedy['description'] }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No remedies submitted yet!</p>
+    {% endif %}
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
