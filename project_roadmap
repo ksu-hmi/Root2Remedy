@@ -1,0 +1,50 @@
+Roadmap
+	1.Setup and Environment
+
+	•	Created project folder and structure.
+	•	Installed and configured Flask (Python 3.9.13).
+	•	Initialized GitHub repository.
+
+	2.Core Application Structure
+
+	•	Created app.py as the main backend file.
+	•	Set up templates folder with HTML pages (home.html, archive.html, thankyou.html, search.html).
+	•	Created static folder for CSS (style.css) and design assets.
+
+	3.Remedy Submission System
+
+	•	Built a remedy submission form capturing user input.
+	•	Form fields included remedy name, story, ritual, symptoms, cultural significance, and dosage notes.
+	•	Linked form to backend to collect and store submissions.
+
+	4.Data Storage Improvement
+
+	•	Initially stored remedies in a Python list (user_remedies = []).
+	•	Upgraded to permanent storage using remedies.json file.
+	•	Added load_remedies() to load saved remedies and save_remedies() to update remedies.json after each submission.
+
+	5.Symptom-Based Search Feature
+
+	•	Created a search page and search route in app.py.
+	•	Allowed users to enter symptoms and filter remedies that matched their search.
+	•	Displayed search results dynamically.
+
+	6.Branding and Design
+
+	•	Added custom style using CSS to match the Root2Remedy theme.
+	•	Integrated a custom Root2Remedy logo into the homepage.
+	•	Styled buttons, fonts, colors, and backgrounds to create an inviting natural design.
+
+	7.Legal and Ethical Protection: Disclaimer System
+
+	•	Created a disclaimer modal pop-up that appears when users enter the website.
+	•	Wrote a professional disclaimer explaining that the information is educational and does not replace professional medical advice.
+	•	Added a “View Disclaimer” link in the footer of each page.
+
+	8.Features
+
+	•	Added a consistent footer across all pages.
+	•	Organized project files cleanly.
+	•	Restarted Flask regularly and tested new features.
+	•	Ensured that remedy entries persist between sessions by saving to remedies.json.
+
