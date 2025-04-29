@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Remedies - Root2Remedy</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+    <h1>Find Remedies by Symptom</h1>
+
+    <form method="POST">
+        <label for="query">Enter a symptom (example: sore throat, inflammation):</label><br><br>
+        <input type="text" id="query" name="query" required><br><br>
+        <input type="submit" value="Search Remedies">
+    </form>
+
+    {% if results %}
+        <h2>Search Results:</h2>
+        <ul>
+        {% for remedy in results %}
+            <li>
+                <h3>{{ remedy['name'] }}</h3>
+                <p><strong>Symptoms Addressed:</strong> {{ remedy['symptoms'] }}</p>
+                <p><strong>Personal Story:</strong> {{ remedy['story'] }}</p>
+            </li>
+        {% endfor %}
+        </ul>
+    {% elif results is not none %}
+        <p>No remedies found matching that symptom.</p>
+    {% endif %}
+
+    <br>
+    <a href="/">Back to Home</a> | <a href="/archive">View All Remedies</a>
+
+    <footer style="margin-top: 50px; text-align: center; font-size: 0.9em; color: #666;">
+        <hr style="margin-bottom: 10px;">
+        © 2025 Root2Remedy · Honoring Our Ancestors · Built with 💚 and Python
+    </footer>
+
+</body>
+</html>

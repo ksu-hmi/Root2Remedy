@@ -2,20 +2,51 @@
 <html>
 <head>
     <title>Remedy Archive - From Root 2 Remedy</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
-    <h1>Remedy Archive</h1>
+    <h1>Community Remedy Archive</h1>
 
     {% if remedies %}
         <ul>
             {% for remedy in remedies %}
-                <li><strong>{{ remedy['name'] }}:</strong> {{ remedy['description'] }}</li>
+                <li>
+                    <h2>{{ remedy['name'] }}</h2>
+                    
+                    <p><strong>Personal Story or Tradition:</strong><br>
+                    {{ remedy['story'] }}</p>
+
+                    {% if remedy['ritual'] %}
+                    <p><strong>Ritual or Spiritual Practice:</strong><br>
+                    {{ remedy['ritual'] }}</p>
+                    {% endif %}
+
+                    <p><strong>Symptoms Addressed:</strong><br>
+                    {{ remedy['symptoms'] }}</p>
+
+                    <p><strong>Cultural Significance:</strong><br>
+                    {{ remedy['cultural'] }}</p>
+
+                    {% if remedy['dosage'] %}
+                    <p><strong>Dosage/Preparation Notes:</strong><br>
+                    {{ remedy['dosage'] }}</p>
+                    {% endif %}
+                    
+                    <hr>
+                </li>
             {% endfor %}
         </ul>
     {% else %}
-        <p>No remedies submitted yet!</p>
+        <p>No remedies have been submitted yet! Be the first to contribute your ancestral wisdom. 🌿</p>
     {% endif %}
 
-    <a href="/">Back to Home</a>
+    <br>
+    <a href="/">Submit Another Remedy</a>
+    <br>
+<a href="/search">🔎 Search Remedies by Symptom</a>
+    <footer style="margin-top: 50px; text-align: center; font-size: 0.9em; color: #666;">
+        <hr style="margin-bottom: 10px;">
+        © 2025 Root2Remedy · Honoring Our Ancestors · Built with 💚 and Python
+    </footer>
 </body>
 </html>

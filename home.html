@@ -1,21 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>From Root 2 Remedy</title>
+    <title>From Root 2 Remedy - Home</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
-    <h1>Welcome to From Root 2 Remedy!</h1>
-    <p>An application designed to digitally preserve, explore, and share traditional and holistic healing practices and techniques passed through generations..</p>
-    <a href="/remedies">See Remedies</a>
+   <!-- Professional Disclaimer Modal -->
+<div id="disclaimerModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); display: flex; align-items: center; justify-content: center; z-index: 10000;">
+    <div style="background: #ffffff; padding: 40px; border-radius: 15px; width: 90%; max-width: 600px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); text-align: center;">
+        
+        <h2 style="color: #3e653b; font-family: Georgia, serif; margin-bottom: 20px;">Important Disclaimer</h2>
+        
+        <p style="font-size: 1em; color: #555; line-height: 1.6;">
+            Root2Remedy shares traditional healing practices and ancestral wisdom for educational purposes only.  
+            The remedies presented here are not substitutes for professional medical advice, diagnosis, or treatment.
+        </p>
+
+        <p style="font-size: 0.95em; color: #777; margin-top: 15px;">
+            Please consult a licensed healthcare provider before trying any new remedy, especially if you are pregnant, nursing, have underlying conditions, or are taking medication.
+            By entering Root2Remedy, you acknowledge personal responsibility for how you use this information.
+        </p>
+
+        <button onclick="acceptDisclaimer()" 
+            style="margin-top: 30px; padding: 12px 30px; background-color: #3e653b; border: none; border-radius: 8px; color: #fff; font-size: 1em; cursor: pointer; transition: background-color 0.3s;">
+            I Acknowledge and Enter
+        </button>
+
+    </div>
+</div>
+    <img src="/static/r2rlogo.png" alt="Root2Remedy Logo" style="width: 200px; height: auto;">
+
+    <h1>Welcome to From Root 2 Remedy</h1>
+    <p>Preserving generational herbal wisdom through community sharing. 🌿</p>
+
+    <h2>Submit Your Traditional Remedy</h2>
+
+    <form action="/" method="post">
+        <label for="name">Herb/Remedy Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="story">Personal Story or Tradition:</label><br>
+        <textarea id="story" name="story" required></textarea><br><br>
+
+        <label for="ritual">Ritual or Spiritual Practice (optional):</label><br>
+        <textarea id="ritual" name="ritual"></textarea><br><br>
+
+        <label for="symptoms">Symptoms Addressed:</label><br>
+        <input type="text" id="symptoms" name="symptoms" required><br><br>
+
+        <label for="cultural">Cultural Significance:</label><br>
+        <textarea id="cultural" name="cultural" required></textarea><br><br>
+
+        <label for="dosage">Dosage/Preparation Notes (optional):</label><br>
+        <textarea id="dosage" name="dosage"></textarea><br><br>
+
+        <input type="submit" value="Submit Remedy">
+    </form>
+
+    <br>
+    <a href="/archive">View the Community Archive</a>
+    <br>
+<a href="/search">🔎 Search Remedies by Symptom</a>
+    <footer style="margin-top: 50px; text-align: center; font-size: 0.9em; color: #666;">
+        <hr style="margin-bottom: 10px;">
+        © 2025 Root2Remedy · Honoring Our Ancestors · Built with 💚 and Python
+    </footer>
+    <script>
+        function acceptDisclaimer() {
+            document.getElementById('disclaimerModal').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
-<h2>Submit a New Remedy</h2>
-<form action="/archive" method="post">
-    <label for="name">Herb Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-
-    <label for="description">What does it do?</label><br>
-    <textarea id="description" name="description" required></textarea><br><br>
-
-    <input type="submit" value="Submit Remedy">
-</form>

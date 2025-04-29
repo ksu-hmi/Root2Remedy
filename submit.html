@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit a Remedy - From Root 2 Remedy</title>
+</head>
+<body>
+    <h1>Submit Your Traditional Remedy</h1>
+
+    <form action="/submit" method="post">
+        <label for="name">Herb/Remedy Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="story">Personal Story or Tradition:</label><br>
+        <textarea id="story" name="story" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="ritual">Ritual or Spiritual Practice (optional):</label><br>
+        <textarea id="ritual" name="ritual" rows="3" cols="50"></textarea><br><br>
+
+        <label for="symptoms">Symptoms Addressed:</label><br>
+        <input type="text" id="symptoms" name="symptoms" required><br><br>
+
+        <label for="cultural">Cultural Significance:</label><br>
+        <textarea id="cultural" name="cultural" rows="3" cols="50" required></textarea><br><br>
+
+        <label for="dosage">Dosage/Preparation Notes (optional):</label><br>
+        <textarea id="dosage" name="dosage" rows="3" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit Remedy">
+    </form>
+
+    <br>
+    <a href="/">Back to Home</a>
+    <footer style="margin-top: 50px; text-align: center; font-size: 0.9em; color: #666;">
+        <hr style="margin-bottom: 10px;">
+        © 2025 Root2Remedy · Honoring Our Ancestors · Built with 💚 and Python
+    </footer>
+</body>
+</html>
