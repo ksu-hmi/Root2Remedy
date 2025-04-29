@@ -39,36 +39,41 @@ The **Root2Remedy** archive includes user-submitted content. These remedies are 
 
 Lastly, by using **Root2Remedy**, you agree that you are solely responsible for how you use any of the information provided. Those that choose to share their generational knowledge are not liable for any adverse reactions, injuries, or outcomes related to the use or misuse of any remedy found here.
 
- Root2Remedy — Tech Stack
+ ## **Root2Remedy — Tech Stack** 🖇️
 
-Front-End:
+**Front-End:**
 	•	HTML5 — for page structure and layout
 	•	CSS3 — for custom styling (earth-toned branding, navigation bar, and form layouts)
 
-Back-End:
+**Back-End:**
 	•	Python 3.9 — for server-side logic
 	•	Flask — lightweight web framework for building the application routes and handling user submissions
 
-Storage:
+**Storage:**
 	•	JSON File (remedies.json) — to permanently store user-submitted remedies without using a traditional database
 
-Other Tools:
+**Other Tools:**
 	•	Git & GitHub — for version control and project repository
 	•	Jinja2 — Flask’s built-in template engine for dynamic HTML pages
 
- How to Run the Application
+ ## **How to Run the Application**
 
-Prerequisites:
+**Prerequisites:**
 	•	Python 3.9+ installed
 	•	Pip (Python package manager)
 	•	Git (optional for cloning the repository)
 
- Important Notes:
-	•	All remedies submitted through the website are saved permanently in a local file called remedies.json.
-	•	Static files (images, stylesheets) are stored inside the /static/ directory.
-	•	HTML page templates are located in the /templates/ directory.
-	•	A professional Disclaimer pop-up ensures users are aware the remedies are informational only.
-	•	This project was built with user-friendliness, cultural respect, and visual branding in mind.
+ ## **Important Notes:**
+
+**All remedies submitted** through the website are saved **permanently** in a local file called remedies.json.
+
+-Static files (images, stylesheets) are stored inside the /static/ directory.
+
+-HTML page templates are located in the /templates/ directory.
+
+-A professional Disclaimer pop-up ensures users are aware the remedies are informational only.
+
+-This project was built with user-friendliness, cultural respect, and visual branding in mind.
 
 
 
