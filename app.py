@@ -1,4 +1,4 @@
-# Import necessary libraries
+# Import libraries
 from flask import Flask, render_template, request, redirect
 import json
 import os
@@ -41,6 +41,13 @@ def home():
         save_remedies(user_remedies)
         return redirect('/thankyou')
     return render_template('home.html')
+
+# Route for the Botanical Garden Page
+@app.route('/garden')
+def garden():
+    with open('refined_herb_dictionary.json', encoding='utf-8') as f:
+        herbs = json.load(f)
+    return render_template('garden.html', herbs=herbs)
 
 # Route for the Archive Page (View all remedies)
 @app.route('/archive')

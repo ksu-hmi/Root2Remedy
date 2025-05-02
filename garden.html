@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Botanical Garden - Root2Remedy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f6f1;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #3e653b;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        h1 {
+            text-align: center;
+            margin: 40px 0 20px;
+            color: #2e6047;
+        }
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+        .herb-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 280px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+        .herb-card:hover {
+            transform: translateY(-5px);
+        }
+        .herb-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .herb-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2e6047;
+            margin-bottom: 10px;
+        }
+        .herb-info {
+            text-align: left;
+            font-size: 0.95em;
+            color: #333;
+        }
+        .herb-info strong {
+            color: #2e6047;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="/">Home</a>
+        <a href="/archive">Archive</a>
+        <a href="/search">Search</a>
+        <a href="/garden">Botanical Garden</a>
+    </nav>
+
+    <!-- Page Title -->
+    <h1>🌿 Botanical Garden</h1>
+
+    <!-- Herb Grid -->
+    <div class="grid-container">
+        {% for herb in herbs %}
+        <div class="herb-card">
+            <img class="herb-image" src="/static/{{ herb.name | lower | replace(' ', '') }}.jpg" alt="{{ herb.name }}">
+            <div class="herb-name">{{ herb.name }}</div>
+            <div class="herb-info">
+                <p><strong>Uses:</strong> {{ herb.uses }}</p>
+                <p><strong>Preparation:</strong> {{ herb.prep }}</p>
+                <p><strong>Warning:</strong> {{ herb.warning }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <hr style="margin-bottom: 10px;">
+        © 2025 Root2Remedy · Growing Wisdom From Root to Remedy
+    </footer>
+
+</body>
+</html>
